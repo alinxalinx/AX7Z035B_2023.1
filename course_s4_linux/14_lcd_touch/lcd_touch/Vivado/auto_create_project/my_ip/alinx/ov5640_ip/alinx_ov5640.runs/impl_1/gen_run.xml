@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="impl_1" LaunchPart="xc7z020clg400-2" LaunchTime="1496402425">
+  <File Type="OPT-DCP" Name="alinx_ov5640_opt.dcp"/>
+  <File Type="RUN-CONSTRS" Name="$PDATADIR/runs/impl_1/constrs_in.xml"/>
+  <File Type="RUN-SRCS" Name="$PDATADIR/runs/impl_1/sources.xml"/>
+  <File Type="ROUTE-DCP" Name="alinx_ov5640_routed.dcp"/>
+  <File Type="PA-TCL" Name="alinx_ov5640.tcl"/>
+  <File Type="RUN-STRAT" Name="$PDATADIR/runs/impl_1/impl_1.psg"/>
+  <File Type="OPT-DRC" Name="alinx_ov5640_drc_opted.rpt"/>
+  <File Type="INIT-TIMING" Name="alinx_ov5640_timing_summary_init.rpt"/>
+  <File Type="OPT-TIMING" Name="alinx_ov5640_timing_summary_opted.rpt"/>
+  <File Type="OPT-HWDEF" Name="alinx_ov5640.hwdef"/>
+  <File Type="PWROPT-DCP" Name="alinx_ov5640_pwropt.dcp"/>
+  <File Type="PWROPT-DRC" Name="alinx_ov5640_drc_pwropted.rpt"/>
+  <File Type="PWROPT-TIMING" Name="alinx_ov5640_timing_summary_pwropted.rpt"/>
+  <File Type="PLACE-DCP" Name="alinx_ov5640_placed.dcp"/>
+  <File Type="PLACE-IO" Name="alinx_ov5640_io_placed.rpt"/>
+  <File Type="PLACE-CLK" Name="alinx_ov5640_clock_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL" Name="alinx_ov5640_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL-PB" Name="alinx_ov5640_utilization_placed.pb"/>
+  <File Type="PLACE-CTRL" Name="alinx_ov5640_control_sets_placed.rpt"/>
+  <File Type="PLACE-SIMILARITY" Name="alinx_ov5640_incremental_reuse_placed.rpt"/>
+  <File Type="PLACE-PRE-SIMILARITY" Name="alinx_ov5640_incremental_reuse_pre_placed.rpt"/>
+  <File Type="PLACE-TIMING" Name="alinx_ov5640_timing_summary_placed.rpt"/>
+  <File Type="POSTPLACE-PWROPT-DCP" Name="alinx_ov5640_postplace_pwropt.dcp"/>
+  <File Type="POSTPLACE-PWROPT-TIMING" Name="alinx_ov5640_timing_summary_postplace_pwropted.rpt"/>
+  <File Type="PHYSOPT-DCP" Name="alinx_ov5640_physopt.dcp"/>
+  <File Type="RDI-RDI" Name="alinx_ov5640.vdi"/>
+  <File Type="PHYSOPT-DRC" Name="alinx_ov5640_drc_physopted.rpt"/>
+  <File Type="PHYSOPT-TIMING" Name="alinx_ov5640_timing_summary_physopted.rpt"/>
+  <File Type="ROUTE-DRC" Name="alinx_ov5640_drc_routed.rpt"/>
+  <File Type="ROUTE-DRC-PB" Name="alinx_ov5640_drc_routed.pb"/>
+  <File Type="ROUTE-PWR" Name="alinx_ov5640_power_routed.rpt"/>
+  <File Type="ROUTE-PWR-SUM" Name="alinx_ov5640_power_summary_routed.pb"/>
+  <File Type="ROUTE-STATUS" Name="alinx_ov5640_route_status.rpt"/>
+  <File Type="ROUTE-STATUS-PB" Name="alinx_ov5640_route_status.pb"/>
+  <File Type="ROUTE-TIMINGSUMMARY" Name="alinx_ov5640_timing_summary_routed.rpt"/>
+  <File Type="ROUTE-TIMING-PB" Name="alinx_ov5640_timing_summary_routed.pb"/>
+  <File Type="ROUTE-TIMING-RPX" Name="alinx_ov5640_timing_summary_routed.rpx"/>
+  <File Type="ROUTE-SIMILARITY" Name="alinx_ov5640_incremental_reuse_routed.rpt"/>
+  <File Type="ROUTE-CLK" Name="alinx_ov5640_clock_utilization_routed.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-DCP" Name="alinx_ov5640_postroute_physopt.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING" Name="alinx_ov5640_timing_summary_postroute_physopted.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-PB" Name="alinx_ov5640_timing_summary_postroute_physopted.pb"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-RPX" Name="alinx_ov5640_timing_summary_postroute_physopted.rpx"/>
+  <File Type="BG-BIT" Name="alinx_ov5640.bit"/>
+  <File Type="BG-BIN" Name="alinx_ov5640.bin"/>
+  <File Type="BITSTR-MSK" Name="alinx_ov5640.msk"/>
+  <File Type="BITSTR-RBT" Name="alinx_ov5640.rbt"/>
+  <File Type="BITSTR-NKY" Name="alinx_ov5640.nky"/>
+  <File Type="BITSTR-BMM" Name="alinx_ov5640_bd.bmm"/>
+  <File Type="BITSTR-MMI" Name="alinx_ov5640.mmi"/>
+  <File Type="BITSTR-SYSDEF" Name="alinx_ov5640.sysdef"/>
+  <File Type="BG-BGN" Name="alinx_ov5640.bgn"/>
+  <File Type="BG-DRC" Name="alinx_ov5640.drc"/>
+  <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PPRDIR/src/i2c_com.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/src/cmos_in_axi4s_coupler.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/src/cmos_in_axi4s_formatter.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/src/reg_config.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/src/power_on_delay.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/src/cmos_8_16bit.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/src/cmos_in_axi4s.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/src/alinx_ov5640.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/component.xml">
+      <FileInfo SFType="IPXACT"/>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="alinx_ov5640"/>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <Config>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2015"/>
+    <Step Id="init_design"/>
+    <Step Id="opt_design"/>
+    <Step Id="power_opt_design"/>
+    <Step Id="place_design"/>
+    <Step Id="post_place_power_opt_design"/>
+    <Step Id="phys_opt_design"/>
+    <Step Id="route_design"/>
+    <Step Id="post_route_phys_opt_design"/>
+    <Step Id="write_bitstream"/>
+  </Strategy>
+  <BlockFileSet Type="BlockSrcs" Name="cmos_in_buf"/>
+</GenRun>

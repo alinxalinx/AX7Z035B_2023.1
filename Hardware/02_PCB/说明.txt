@@ -1,0 +1,3 @@
+AX7Z010_AX7Z020_PCB_Allegro.brd ------为底板allegro格式的PCB文件。
+
+核心板的PCB源文件不提供。

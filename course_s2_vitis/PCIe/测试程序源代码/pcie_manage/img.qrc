@@ -1,0 +1,7 @@
+<RCC>
+    <qresource prefix="/">
+        <file>img/sys_close.png</file>
+        <file>img/sys_min.png</file>
+        <file>img/warning.png</file>
+    </qresource>
+</RCC>

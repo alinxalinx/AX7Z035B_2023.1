@@ -37,10 +37,8 @@ https://ax7z035b-20231-v101.readthedocs.io/zh-cn/latest/7Z035B_S1_RSTdocument_CN
  注意：文档的末尾页脚处可以切换中英文语言
 
 ## 运行环境
-* Vitis 2023.1 [下载页面](https://www.xilinx.com/support/download/index.html/content/xilinx/en/downloadNav/vitis/2023-1.html)
-下载 **AMD Unified Installer for FPGAs & Adaptive SoCs 2023.1 SFD**  和 **AMD Unified Installer for FPGAs & Adaptive SoCs 2023.1: All OS installer Single-File Download**
-* Petalinux 2023.1 [下载页面](https://www.xilinx.com/support/download/index.html/content/xilinx/en/downloadNav/embedded-design-tools/2023-1.html)
-download **PetaLinux 安装**
+* Vivado/Vitis 2023.1 软件安装[下载页面](https://www.xilinx.com/support/download/index.html/content/xilinx/en/downloadNav/vitis/2023-1.html)
+* Petalinux 2023.1 软件安装 [下载页面](https://www.xilinx.com/support/download/index.html/content/xilinx/en/downloadNav/embedded-design-tools/2023-1.html)
 
 # AX7Z035,AX7Z035B 例程
 ## 例程描述

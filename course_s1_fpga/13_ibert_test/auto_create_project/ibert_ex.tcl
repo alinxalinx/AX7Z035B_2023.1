@@ -116,7 +116,7 @@ set_property -dict [list \
   CONFIG.C_SYSCLK_MODE_EXTERNAL {0} \
   CONFIG.C_SYSCLOCK_SOURCE_INT {QUAD111_1} \
 ] [get_ips ibert]
-generate_target {instantiation_template} [get_files c:/Users/Administrator/Desktop/course_s1_fpga/01_led/led.srcs/sources_1/ip/ibert/ibert.xci]
+generate_target {instantiation_template} [get_files $projpath/$projname/$projname.srcs/sources_1/ip/ibert/ibert.xci]
 
 update_compile_order -fileset sources_1
 generate_target all [get_files  $projpath/$projname/$projname.srcs/sources_1/ip/ibert/ibert.xci]

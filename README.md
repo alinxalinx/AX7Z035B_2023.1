@@ -35,6 +35,12 @@ management, and the core board size is only 80*60 (mm), which is very suitable f
 
  Note: You can switch between Chinese and English languages at the footer at the end of the document
 
+## Operating environment
+* Vitis 2023.1 [download page](https://www.xilinx.com/support/download/index.html/content/xilinx/en/downloadNav/vitis/2023-1.html)
+download **AMD Unified Installer for FPGAs & Adaptive SoCs 2023.1 SFD**  and **AMD Unified Installer for FPGAs & Adaptive SoCs 2023.1: All OS installer Single-File Download**
+* Petalinux 2023.1 [download page](https://www.xilinx.com/support/download/index.html/content/xilinx/en/downloadNav/embedded-design-tools/2023-1.html)
+download **PetaLinux Installer**
+
 # AX7Z035,AX7Z035B routine
 ## Routine description
 This project is the factory routine of the development board and supports most peripherals on the board.
